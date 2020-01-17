@@ -1,0 +1,72 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url(../HTML/image.jpg);
+  opacity: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /*place-content into center */
+  align-items: center;
+  padding-bottom: 50px;
+  margin: 0, auto;
+}
+h1 {
+  /* color: whitesmoke; */
+  font-size: 50px;
+  margin-bottom: 100px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.heading {
+}
+.form-box {
+  margin: 0, auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+
+.search-field-1 {
+  border-radius: 20px;
+  width: 230px;
+  border: none;
+  outline: none;
+  height: 30px;
+}
+.search-field-2 {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+}
+.search-btn {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100px;
+  color: #000;
+  background: #ffeb3b;
+}
+.search-btn :hover {
+  background: #ffbf00; /*here is a problem */
+  cursor: pointer;
+}
+
+/* #vl {
+  border-left: 250px green;
+  height: 200px;
+  left: 40%;
+} */
+.form2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #000;
+}
